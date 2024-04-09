@@ -1,0 +1,33 @@
+
+table {
+  width: 100%;
+
+}
+.dayselect{
+  width:350px;
+}
+td{
+  padding: 10px 0px;
+  width: 200px;
+}
+.tableheading{
+text-align: left;
+}
+.dayselect{
+  padding-right: 60px;
+  text-align: right;
+}
+.btndelet{
+  width:100px;
+}
+.img{
+  padding: 0px 3px;
+}
+.btnAdd{
+  width:300px;
+}
+
+
+input[type="radio"]:checked {
+  background-color: #1976D2; /* Darker blue color */
+}
