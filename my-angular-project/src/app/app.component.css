@@ -2,13 +2,18 @@
 .table {
   width: 100%;
 }
-
+.table p{
+  font-size: 13px;
+  font-family: sans-serif;
+}
 .tableheading{
 text-align: left;
 }
 .dayselect{
   text-align: right;
   padding: 10px 0px;
+  font-size: 13px;
+  font-family: sans-serif;
 }
 .btndispaly{
   width:100px;
@@ -29,6 +34,10 @@ text-align: left;
   align-items: center;
   width: 140px;
   border-right: 1px solid #cdcdcd;
+}
+.display p{
+  font-size: 13px;
+  font-family:sans-serif;
 }
 
 .display1{
@@ -67,6 +76,13 @@ align-items: end;
   background-color: #fff;
   border: 1px solid #cdcdcd !important;
   margin: 0px 4px;
+  border-radius: 5px;
+}
+.btnred{
+  background-color: #fff;
+  border: 2px solid #ff0101 !important;
+  margin: 0px 4px;
+  border-radius: 5px;
 
 }
 .btn1{
@@ -74,10 +90,12 @@ align-items: end;
   border: 1px solid #cdcdcd !important;
   padding:5px 10px;
 margin: 0px 2px;
+border-radius: 5px;
 }
 .btndis{
   background-color: #fff;
   border: 1px solid #cdcdcd !important;
   padding:5px 10px;
   margin-right: 2px;
+  border-radius: 5px;
 }
