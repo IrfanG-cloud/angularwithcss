@@ -1,71 +1,143 @@
+<div class="table">
+  <p>One hours</p>
 
-  <div>
-    <p>One hours</p>
-
-<table>
-  <tr class="tableheading">
-    <th></th>
-    <th>Sun</th>
-    <th>Mon</th>
-    <th>Tue</th>
-    <th>Wed</th>
-    <th>Thu</th>
-    <th>Fri</th>
-    <th>Sat</th>
-    <th></th>
-  </tr>
-  <tr>
-  	<td class="dayselect">All Days</td>
-    <td><input type="radio" name="selectedDay" value="Sunday" checked></td>
-    <td><input type="radio" name="selectedDay" value="Monday" checked></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday" checked></td>
-    <td><input type="radio" name="selectedDay" value="Wednesday" checked></td>
-    <td><input type="radio" name="selectedDay" value="Thursday" checked></td>
-    <td><input type="radio" name="selectedDay" value="Friday" checked></td>
-    <td><input type="radio" name="selectDay" value="Saturday"></td>
-    <td class="btndelet"><button><img src="../assets/img1.png " /></button><button><img src="../assets/img2.png " /></button></td>
-  </tr>
-  <tr>
-  	<td class="dayselect">Closed</td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="day" value="Monday"></td>
-    <td class="btndelet"><button><img src="../assets/img1.png " /></button><button><img src="../assets/img2.png " /></button></td>
-  </tr>
-  <tr>
-  	<td class="dayselect">8:00 AM - 06:00 PM</td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="day" value="Monday"></td>
-    <td class="btndelet"><button><img src="../assets/img1.png " /></button><button><img src="../assets/img3.png " /></button></td>
-  </tr>
-  <tr>
-  	<td class="dayselect"><button>10:00</button><span>-</span><button>12:00 AM + 1</button></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="selectedDay" value="Tuesday"></td>
-    <td><input type="radio" name="day" value="Monday"></td>
-    <div class="btndelet">
-      <button><img src="../assets/img1.png " class="img"/></button>
-      <button><img src="../assets/img3.png " /></button>
+  <div class="main">
+    <div class="display1">
+      <p></p>
+      <div class="dayselect">All Days</div>
+      <div class="dayselect">Closed</div>
+      <div class="dayselect">8:00 AM - 06:00 PM</div>
+      <div class="dayselect">
+        <button class="btn1">10:00</button><span>-</span><button class="btn1">12:00 AM + 1</button>
+      </div>
     </div>
-  </tr>
-  <tr>
-    <td class="dayselect"><div><button >+ Add Open Hours</button></div></td>
-  </tr>
-</table>
+
+    <div class="display">
+      <p>Sun</p>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Sunday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Sunday" />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Sunday" />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Sunday" />
+      </div>
+    </div>
+    <div class="display">
+      <p>Mon</p>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Monday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Monday" />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Monday" />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Monday" />
+      </div>
+    </div>
+    <div class="display">
+      <p>Tue</p>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Tuesday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Tuesday" />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Tuesday" />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Tuesday" />
+      </div>
+    </div>
+    <div class="display">
+      <p>Wed</p>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Wednesday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Wednesday" />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Wednesday" />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Wednesday" />
+      </div>
+    </div>
+    <div class="display">
+      <p>Thu</p>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Thursday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Thursday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Thursday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Thursday" checked />
+      </div>
+    </div>
+    <div class="display">
+      <p>Fri</p>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Friday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Friday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Friday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Friday" checked />
+      </div>
+    </div>
+    <div class="display4">
+      <p>Sat</p>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Saturday" checked />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Saturday" />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Saturday" />
+      </div>
+      <div class="input">
+        <input type="radio" name="selectedDay" value="Saturday" />
+      </div>
+    </div>
+    <div class="display3">
+      <p></p>
+      <div class="btndisplay">
+        <button class="btn"><img src="../assets/img1.png " class="butimage"/></button
+        ><button class="btn"><img src="../assets/img2.png " class="butimage"/></button>
+      </div>
+      <div class="btndisplay1">
+        <button class="btn"><img src="../assets/img1.png " class="butimage"/></button
+        ><button class="btn"><img src="../assets/img2.png " class="butimage"/></button>
+      </div>
+      <div class="btndisplay1">
+        <button class="btn"><img src="../assets/img1.png " class="butimage"/></button
+        ><button><img src="../assets/img3.png " class="butimage"/></button>
+      </div>
+      <div class="btndisplay1">
+        <button class="btn"><img src="../assets/img1.png " class="butimage"/></button
+        ><button class="btn"><img src="../assets/img3.png " class="butimage"/></button>
+      </div>
+    </div>
+  </div>
+  <div class="btndisplay2">
+    <button class="btndis">+ Add Open Hours</button>
+  </div>
 </div>
-
-
-
